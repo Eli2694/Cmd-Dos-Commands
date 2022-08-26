@@ -1,0 +1,75 @@
+command - description
+date - update the date
+
+time - sets time
+
+dir - show the content of the directory
+
+cls - clear screen
+
+cd.. - Moves to the folder that contains the folder I am currently in (going back)
+
+md "folder name" - create new folder
+
+cd "dir name" - gets into the dir (folder)
+
+cd\ - goes back to c:\
+
+cd\”folder name” - goes into the folder  c:\”file name”  (in order)
+
+tree - shows all folders inside the corrent dir and all folders inside of them.
+
+dir /? or help dir - shows all the application of the command.
+
+dir /p /o - sort files
+
+rmdir - remove dir
+
+rmdir /s “dir name” - deletes all the folder inside the dir
+
+dir > filename.txt - creates file name.txt file
+
+copy filename.txt c:\aaa - copies the file into aaa dir
+
+copy filename.txt c:\aaa\filename2.txt - copies the file into aaa and change the name into filename2.txt
+
+del filename.txt - deletes filename.txt
+
+move filename.txt c:\aaa - moves the file into c:\aaa
+
+type filename.txt - prints the content of the file
+
+attrib filename.txt - shows attribute (תכונה)
+
+attrib /? - shows all attribute commands
+
+attrib +R filename.txt - read only - cannot be deleted 
+
+attrib -R filename.txt - remove read only attribute 
+
+attrib +h filename.txt - filename.txt will be hidden
+
+type a.txt > b.txt -  copies "a" data file into " b.txt"
+
+dir *.txt - shows all "txt" files in the current dir
+
+dir x*.txt - shows all files that start with x and are txt files
+
+dir x*.txt > file.txt - opens new file and copies all content of files that start with x into the new file
+
+dir x?3.txt - shows all files that start with x and ends with 3 and are txt files ( ? can be 1-9 )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
