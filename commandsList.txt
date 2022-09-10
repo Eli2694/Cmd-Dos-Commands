@@ -59,6 +59,16 @@ dir x*.txt > file.txt - opens new file and copies all content of files that star
 
 dir x?3.txt - shows all files that start with x and ends with 3 and are txt files ( ? can be 1-9 )
 
+Batch file - (file.bat): A file that contains commands that you can preform from cmd
+
+echo - prints into screen (Dos-command)
+
+pause - press any key to continue (pause between commands)
+
+tasklist - shows all tasks active
+
+tasklist | find “x.txt” -  shows all x.txt tasks
+
 
 
 
